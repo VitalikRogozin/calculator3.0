@@ -3,32 +3,35 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    android:padding="16dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="2dp"
     android:orientation="vertical">
 
     <TextView
         android:id="@+id/txt_result"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="105dp"
         android:gravity="end"
         android:fontFamily="@font/open_sans"
         android:textSize="@dimen/calc_text_size"
         android:textColor="@color/calc_text_color"
-        tools:text="100500" />
+        tools:text=""/>
 
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:columnCount="4">
 
+
         <com.google.android.material.button.MaterialButton
             android:id="@+id/key_1"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:text="@string/key_1"
             android:layout_margin="@dimen/card_margin"
             android:layout_columnWeight="1"
-            android:layout_gravity="fill_horizontal" />
+            android:layout_gravity="fill_horizontal"
+            app:cornerRadius="0dp"/>
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/key_2"
@@ -37,7 +40,8 @@
             android:text="@string/key_2"
             android:layout_columnWeight="1"
             android:layout_margin="@dimen/card_margin"
-            android:layout_gravity="fill_horizontal" />
+            android:layout_gravity="fill_horizontal"
+            app:cornerRadius="0dp"/>
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/key_3"
@@ -46,7 +50,8 @@
             android:text="@string/key_3"
             android:layout_columnWeight="1"
             android:layout_gravity="fill_horizontal"
-            android:layout_margin="@dimen/card_margin" />
+            android:layout_margin="@dimen/card_margin"
+            app:cornerRadius="0dp"/>
 
         <Button
             android:id="@+id/key_plus"
@@ -56,7 +61,8 @@
             android:layout_margin="@dimen/card_margin"
             style="@style/CalcButton.Operation"
             android:layout_columnWeight="1"
-            android:layout_gravity="fill_horizontal" />
+            android:layout_gravity="fill_horizontal"
+            app:cornerRadius="0dp"/>
 
         <Button
             android:id="@+id/key_4"
@@ -64,7 +70,8 @@
             android:layout_height="wrap_content"
             android:text="@string/key_4"
             android:layout_margin="@dimen/card_margin"
-            android:layout_gravity="fill_horizontal" />
+            android:layout_gravity="fill_horizontal"
+            app:cornerRadius="0dp"/>
 
         <Button
             android:id="@+id/key_5"
@@ -72,7 +79,8 @@
             android:layout_height="wrap_content"
             android:text="@string/key_5"
             android:layout_margin="@dimen/card_margin"
-            android:layout_gravity="fill_horizontal" />
+            android:layout_gravity="fill_horizontal"
+            app:cornerRadius="0dp"/>
 
         <Button
             android:id="@+id/key_6"
@@ -80,7 +88,8 @@
             android:layout_height="wrap_content"
             android:text="@string/key_6"
             android:layout_margin="@dimen/card_margin"
-            android:layout_gravity="fill_horizontal" />
+            android:layout_gravity="fill_horizontal"
+            app:cornerRadius="0dp"/>
 
         <Button
             android:id="@+id/key_minus"
@@ -89,7 +98,8 @@
             android:text="@string/key_minus"
             android:layout_columnWeight="1"
             android:layout_gravity="fill_horizontal"
-            style="@style/CalcButton.Operation" />
+            style="@style/CalcButton.Operation"
+            app:cornerRadius="0dp"/>
 
         <Button
             android:id="@+id/key_7"
@@ -97,7 +107,8 @@
             android:layout_height="wrap_content"
             android:text="@string/key_7"
             android:layout_margin="@dimen/card_margin"
-            android:layout_gravity="fill_horizontal" />
+            android:layout_gravity="fill_horizontal"
+            app:cornerRadius="0dp"/>
 
         <Button
             android:id="@+id/key_8"
@@ -105,7 +116,8 @@
             android:layout_height="wrap_content"
             android:text="@string/key_8"
             android:layout_margin="@dimen/card_margin"
-            android:layout_gravity="fill_horizontal" />
+            android:layout_gravity="fill_horizontal"
+            app:cornerRadius="0dp"/>
 
         <Button
             android:id="@+id/key_9"
@@ -113,7 +125,8 @@
             android:layout_height="wrap_content"
             android:text="@string/key_9"
             android:layout_margin="@dimen/card_margin"
-            android:layout_gravity="fill_horizontal" />
+            android:layout_gravity="fill_horizontal"
+            app:cornerRadius="0dp"/>
 
         <Button
             android:id="@+id/key_mult"
@@ -122,7 +135,8 @@
             android:text="@string/key_mult"
             android:layout_columnWeight="1"
             android:layout_gravity="fill_horizontal"
-            style="@style/CalcButton.Operation" />
+            style="@style/CalcButton.Operation"
+            app:cornerRadius="0dp"/>
 
         <Button
             android:id="@+id/key_0"
@@ -131,7 +145,8 @@
             android:text="@string/key_0"
             android:layout_columnSpan="2"
             android:layout_margin="@dimen/card_margin"
-            android:layout_gravity="fill_horizontal" />
+            android:layout_gravity="fill_horizontal"
+            app:cornerRadius="0dp"/>
 
         <Button
             android:id="@+id/key_dot"
@@ -139,7 +154,8 @@
             android:layout_height="wrap_content"
             android:text="@string/key_dot"
             android:layout_margin="@dimen/card_margin"
-            android:layout_gravity="fill_horizontal" />
+            android:layout_gravity="fill_horizontal"
+            app:cornerRadius="0dp"/>
 
         <Button
             android:id="@+id/key_div"
@@ -148,7 +164,8 @@
             android:text="@string/key_div"
             android:layout_columnWeight="1"
             android:layout_gravity="fill_horizontal"
-            style="@style/CalcButton.Operation" />
+            style="@style/CalcButton.Operation"
+            app:cornerRadius="0dp"/>
 
     </GridLayout>
 
@@ -156,6 +173,7 @@
         android:id="@+id/btn_settings"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btn_settings" />
+        android:text="@string/btn_settings"
+        app:cornerRadius="0dp"/>
 
 </LinearLayout>
