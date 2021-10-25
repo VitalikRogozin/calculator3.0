@@ -16,7 +16,7 @@
         android:id="@+id/btn_terms_conditions"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btn_terms_conditions"
+        android:text="@string/btn_settings"
         android:layout_margin="@dimen/default_margin" />
 
 </LinearLayout>

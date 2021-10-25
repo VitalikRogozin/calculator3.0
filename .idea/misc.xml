@@ -3,11 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/MaxPayne/AndroidStudioProjects/calculator30/app/src/main/res/drawable-v24/ic_5g.xml" value="0.21875" />
+        <entry key="..\:/Users/MaxPayne/AndroidStudioProjects/calculator30/app/src/main/res/drawable-v24/scnd_pic.xml" value="0.21875" />
+        <entry key="..\:/Users/MaxPayne/AndroidStudioProjects/calculator30/app/src/main/res/drawable-v24/thrd_pic.xml" value="0.21875" />
+        <entry key="..\:/Users/MaxPayne/AndroidStudioProjects/calculator30/app/src/main/res/drawable/first_pic.xml" value="0.21875" />
+        <entry key="..\:/Users/MaxPayne/AndroidStudioProjects/calculator30/app/src/main/res/drawable/forth_pic.xml" value="0.21875" />
+        <entry key="..\:/Users/MaxPayne/AndroidStudioProjects/calculator30/app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.21875" />
+        <entry key="..\:/Users/MaxPayne/AndroidStudioProjects/calculator30/app/src/main/res/drawable/scnd_pic.xml" value="0.21875" />
+        <entry key="..\:/Users/MaxPayne/AndroidStudioProjects/calculator30/app/src/main/res/drawable/thrd_pic.xml" value="0.21875" />
         <entry key="..\:/Users/MaxPayne/AndroidStudioProjects/calculator30/app/src/main/res/font/open_sans.xml" value="0.3927083333333333" />
         <entry key="..\:/Users/MaxPayne/AndroidStudioProjects/calculator30/app/src/main/res/layout-land/activity_calculator.xml" value="0.4666666666666667" />
         <entry key="..\:/Users/MaxPayne/AndroidStudioProjects/calculator30/app/src/main/res/layout/activity_calculator.xml" value="0.3625" />
         <entry key="..\:/Users/MaxPayne/AndroidStudioProjects/calculator30/app/src/main/res/layout/activity_constraint_keyboard.xml" value="0.3625" />
+        <entry key="..\:/Users/MaxPayne/AndroidStudioProjects/calculator30/app/src/main/res/layout/activity_junk.xml" value="0.20260416666666667" />
         <entry key="..\:/Users/MaxPayne/AndroidStudioProjects/calculator30/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Users/MaxPayne/AndroidStudioProjects/calculator30/app/src/main/res/layout/activity_settings.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/MaxPayne/AndroidStudioProjects/calculator30/app/src/main/res/layout/item_list.xml" value="0.20260416666666667" />
         <entry key="..\:/Users/MaxPayne/AndroidStudioProjects/calculator30/app/src/main/res/layout/item_theme.xml" value="0.33" />
       </map>
     </option>
